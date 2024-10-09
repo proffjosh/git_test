@@ -1,2 +1,3 @@
 # git_test
-hello odin 
+hello odin what would you be teaching me today 
+love to learn, learning is fun! 
