@@ -13,6 +13,11 @@
             justify-content: flex-end;
             gap: 5px;
             flex-wrap: nowrap;
+            background-image:url("image 4.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size:cover;
+            
             
                     
         }
@@ -63,28 +68,14 @@
                 margin-top: 20px;
                 display: flex;
                 flex-direction: column;
-                align-items: center;
-            .image { height:270px;
-                     width: 200px;
+                align-items: center;}
+            .image { height:200px;
+                     width: 180px;
                      border: 1px solid red;
-                     display: flex;
-                     justify-content: center;
-                     align-content: space-evenly;
-                      }
+                  }
             p {
-                margin-top: 200px;
-                border: 1px solid red;
-                border-radius: 15px;
-                color:black;
-                height: 20px;
-                width: 50px;
-                text-align: center;
-                font: 10px;
-                font-size: medium;
-                font-family: Cambria, Cochin, Georgia,
-                 Times, 'Times New Roman', serif;
-                 font-weight: 100px;
-                 font-style: italic;
+                
+                
                 
             }
             .order-tag { border: 1px solid black;
@@ -94,9 +85,32 @@
                          display: flex;
                          justify-content: center;
                          padding-top: 15px;
-                         margin-top: 0px;
-                     
-
+                         margin-top: 0px;         
+                        }
+           img.image1 { 
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+            .text {display: flex;
+                height:200px;
+                border: 1px solid black;
+            
+            }
+            .review-container{
+                height: 600px;
+                border: 1px solid red;
+                display: flex;
+            }
+            .first {
+                border:1px solid red;
+                height: 100px;
+                width: 50px;
+            }
+            .second{
+                border:1px solid black;
+                height:100px;
+                width: 50px;
             }
     </style>
 </head>
@@ -107,44 +121,54 @@
         <div class="box">About Us</div>
         <div class="box" id="last">contact us</div>
 </div>
+<div class="text"><h2>100% ORGANIC BREAD</h2>
+   <h3> <p>You heard it right! Our bread is truly one of a
+        kind! No preservatives. No artificial sweeteners.
+        No artificial bread softeners. No artificial bread 
+        improvers. We use locally sourced natural ingredients
+        that give our products a fresh and unique taste</p>
+    </p></h3></div>
 <div class="product-container">
-    <div class="product"> box 1
-        <div class="image"><img src="url"><p>Price</p></div>
+    <div class="product"> Price N2000
+        <div class="image"><img src="image 6.jpg" class="image1"></div>
         <div class="order-tag">Order</div>
     </div>
-    <div class="product"> box 2
-        <div class="image"><img src="url"><p>Price</p></div>
+    <div class="product"> Price N2000
+        <div class="image"><img src="image 7.jpg" class="image1"></div>
         <div class="order-tag">Order</div>
     </div>
-    <div class="product"> box 3
-        <div class="image"><img src="url"><p>price</p></div>
+    <div class="product"> Price N2000 
+        <div class="image"><img src="image 8.jpg"class="image1"></div>
         <div class="order-tag">Order</div>
     </div>
     <div class="product"> box 4
-        <div class="image"><img src="url"><p>Price</p></div>
+        <div class="image"><img src="image 9.jpg " class="image1"></div>
         <div class="order-tag">Order</div>
     </div>
     <div class="product"> box 5
-        <div class="image"><img src="url"><p>Price</p></div>
+        <div class="image"><img src="image 1.png" class="image1"></div>
         <div class="order-tag">Order</div>
     </div>
     <div class="product"> box 6
-        <div class="image"><img src="url"><p>Price</p></div>
+        <div class="image"><img src="image 2.png" class="image1"></div>
         <div class="order-tag">Order</div>
     </div>
     <div class="product"> box 7
-        <div class="image"><img src="url"><p>Price</p></div>
+        <div class="image"><img src="image 3.png" class="image1"></div>
         <div class="order-tag">Order</div>
     </div>
     <div class="product"> box 8
-        <div class="image"><img src="url"><p>Price</p></div>
+        <div class="image"><img src="image 4.png" class="image1"></div>
         <div class="order-tag">Order</div>
     </div>
     <div class="product"> box 9
-        <div class="image"><img src="url"><p>Price</p></div>
+        <div class="image"><img src="image 5.png" class="image1"></div>
         <div class="order-tag">Order</div>
     </div>
 </div>
-    
+<div class="review-container">
+    <div class="first" id="first1"></div>
+    <div class="first" id="first2"></div>
+</div>
 </body>
 </html>
